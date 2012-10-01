@@ -9,11 +9,11 @@
 # And be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 development:
-  adapter: postgresql
+  adapter: mysql
   database: dop_development
   pool: 5
-  username: postgres
-  password: root
+  username: root
+  password: racpakistan47
 #  socket: /var/run/mysqld/mysqld.sock
 
 
@@ -23,5 +23,5 @@ production:
   reconnect: false
   database: dop_development
   pool: 5
-  username: postgres
-  password: root
+  username: root
+  password: racpakistan47
