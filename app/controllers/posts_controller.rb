@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  include Foo
+  #include Foo
 
   def index
     search = Post.search do
