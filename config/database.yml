@@ -21,7 +21,7 @@ production:
   adapter: postgresql
   encoding: utf8
   reconnect: false
-  database: qitch
+  database: dop_development
   pool: 5
   username: postgres
   password: root

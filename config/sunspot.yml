@@ -1,12 +1,12 @@
 production:
   solr:
-    hostname: index.websolr.com
-    port: 8983
+    hostname: ilsainteractive.com
+    port: 8982
     log_level: WARNING
 
 development:
   solr:
-    hostname: localhost
+    hostname: ilsainteractive.com
     port: 8982
     log_level: INFO
 
